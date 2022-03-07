@@ -1,4 +1,4 @@
-package cucumber;
+package cucumber.step;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -8,8 +8,8 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FooStep {
 
